@@ -14,7 +14,7 @@
           <ion-card-title><ion-input placeholder="Tapez un nombre entre 0 et 100" v-model="nbrp" :disabled="inputdisabled"></ion-input> <ion-button size="small" color="tertiary" @click="valider()" :disabled="inputdisabled">Valider</ion-button><ion-button size="small" color="light" @click="rand()" :disabled="disabled">Nouveau</ion-button></ion-card-title>
         </ion-card-header>
         <ion-card-content>
-Au début du jeu, suite à l’appui sur le bouton « Nouveau », on choisit un nombre aléatoire entre 0 et 100. Via un champs de saisi, l’utilisateur propose un premier nombre </ion-card-content>
+Au début du jeu, suite à l’appui sur le bouton « Nouveau », l'application génere un nombre aléatoire entre 0 et 100.<br> Via un champs de saisi, l’utilisateur doit deviner le nombre </ion-card-content>
 <ion-button @click="classement()" expand="block">Classement</ion-button>
       </ion-card>
       <ion-card v-if="affclass">
