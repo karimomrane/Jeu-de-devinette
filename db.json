@@ -1,0 +1,22 @@
+{
+  "joueurs": [
+    {
+      "name": "iskander",
+      "time": 26,
+      "score": 20,
+      "id": 1
+    },
+    {
+      "name": "feriel",
+      "time": 32,
+      "score": 30,
+      "id": 2
+    },
+    {
+      "name": "ggg",
+      "time": 22,
+      "score": 60,
+      "id": 3
+    }
+  ]
+}
