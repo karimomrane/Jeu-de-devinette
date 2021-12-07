@@ -71,7 +71,7 @@ export default defineComponent({
     },
     classement(){
       this.affclass=true;
-      axios.get('http://localhost:3000/joueurs?_sort=score&_order=desc').then(response=>this.clas=response.data)
+      axios.get('http://localhost:3000/joueurs?_sort=score,time&_order=desc,asc').then(response=>this.clas=response.data)
     },
     async valider(){
 
